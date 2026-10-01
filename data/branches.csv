@@ -1,1 +1,19 @@
-
+﻿branch_id,branch_name,emirate,area,concept,seats,has_drive_thru,offers_delivery,opened_date,monthly_rent_aed
+BR-01,Marina Walk,Dubai,Dubai Marina,Casual Dining,120,No,Yes,16-12-2021,248400
+BR-02,Downtown Boulevard,Dubai,Downtown Dubai,Fine Dining,90,No,No,12-09-2021,147500
+BR-03,Al Barsha Mall,Dubai,Al Barsha,Quick Service,60,Yes,Yes,15-08-2018,82400
+BR-04,Jumeirah Beach Road,Dubai,Jumeirah,Café,45,No,Yes,21-04-2016,67500
+BR-05,Business Bay Tower,Dubai,Business Bay,Casual Dining,95,No,Yes,23-02-2017,166200
+BR-06,Deira City Centre,Dubai,Deira,Quick Service,70,Yes,Yes,20-06-2016,72900
+BR-07,Silicon Oasis,Dubai,Dubai Silicon Oasis,Quick Service,55,Yes,Yes,12-02-2022,93800
+BR-08,Corniche Abu Dhabi,Abu Dhabi,Corniche,Fine Dining,85,No,No,05-03-2020,97500
+BR-09,Yas Mall,Abu Dhabi,Yas Island,Casual Dining,110,No,Yes,06-04-2019,194400
+BR-10,Khalidiya Street,Abu Dhabi,Al Khalidiyah,Café,40,No,Yes,06-01-2020,84500
+BR-11,Al Raha Beach,Abu Dhabi,Al Raha,Casual Dining,80,No,Yes,10-09-2022,150200
+BR-12,Mussafah Industrial,Abu Dhabi,Mussafah,Quick Service,50,Yes,Yes,14-05-2019,69600
+BR-13,Al Majaz Waterfront,Sharjah,Al Majaz,Casual Dining,100,No,Yes,12-11-2017,179100
+BR-14,Sharjah City Centre,Sharjah,Al Wahda,Quick Service,58,Yes,Yes,15-09-2021,56900
+BR-15,Ajman Corniche,Ajman,Corniche,Café,38,No,Yes,22-04-2020,58800
+BR-16,RAK Mall,Ras Al Khaimah,Al Nakheel,Quick Service,52,Yes,Yes,31-03-2023,95600
+BR-17,Fujairah Beach,Fujairah,Al Faseel,Casual Dining,75,No,Yes,12-02-2020,78400
+BR-18,Al Ain Oasis,Al Ain,Central District,Casual Dining,85,No,Yes,14-05-2022,183900

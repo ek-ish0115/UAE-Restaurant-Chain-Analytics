@@ -1,0 +1,99 @@
+﻿item_id,item_name,menu_category,menu_price_aed,item_cost_aed,prep_minutes,is_vegetarian,calories,is_active,launched_date
+ITM-0001,Hummus,Appetizers,25,7.95,5,Yes,140,Yes,19-11-2023
+ITM-0002,Hummus Special,Appetizers,19,5.79,7,Yes,98,Yes,23-07-2020
+ITM-0003,Moutabal,Appetizers,43,12.13,5,No,397,Yes,23-09-2023
+ITM-0004,Moutabal Special,Appetizers,31,9.89,5,No,822,Yes,18-10-2023
+ITM-0005,Fattoush,Appetizers,40,12.05,10,Yes,700,Yes,19-12-2021
+ITM-0006,Fattoush Special,Appetizers,33,9.99,5,Yes,479,Yes,16-10-2021
+ITM-0007,Cheese Rolls,Appetizers,38,10.34,6,No,150,Yes,06-06-2023
+ITM-0008,Cheese Rolls Special,Appetizers,51,14.22,10,No,290,Yes,31-03-2021
+ITM-0009,Soup of the Day,Appetizers,27,8.14,5,No,736,Yes,30-06-2022
+ITM-0010,Soup of the Day Special,Appetizers,53,17.4,9,No,312,Yes,22-11-2022
+ITM-0011,Calamari,Appetizers,38,11.87,4,No,973,Yes,22-04-2023
+ITM-0012,Calamari Special,Appetizers,52,14.51,10,No,755,No,07-01-2020
+ITM-0013,Chicken Machboos,Mains,101,31.34,20,No,125,Yes,08-05-2021
+ITM-0014,Chicken Machboos Special,Mains,116,40.96,19,No,521,Yes,29-12-2020
+ITM-0015,Chicken Machboos Large,Mains,80,27,15,No,802,Yes,08-07-2022
+ITM-0016,Lamb Ouzi,Mains,82,25.2,20,No,320,Yes,15-12-2019
+ITM-0017,Lamb Ouzi Special,Mains,131,44.04,17,No,269,Yes,29-10-2022
+ITM-0018,Lamb Ouzi Large,Mains,81,26.38,11,No,590,Yes,28-07-2023
+ITM-0019,Seafood Pasta,Mains,116,38.34,13,No,908,Yes,21-04-2023
+ITM-0020,Seafood Pasta Special,Mains,132,41.23,18,No,693,Yes,12-07-2021
+ITM-0021,Seafood Pasta Large,Mains,119,39.45,12,No,118,Yes,03-09-2022
+ITM-0022,Butter Chicken,Mains,125,43.27,11,No,237,No,21-05-2020
+ITM-0023,Butter Chicken Special,Mains,123,43.55,19,No,732,Yes,24-05-2023
+ITM-0024,Butter Chicken Large,Mains,126,39.75,18,No,109,Yes,19-11-2023
+ITM-0025,Beef Stroganoff,Mains,113,39.77,10,No,1001,Yes,09-10-2021
+ITM-0026,Beef Stroganoff Special,Mains,46,14.82,16,No,393,Yes,12-02-2020
+ITM-0027,Beef Stroganoff Large,Mains,122,39.28,17,No,190,Yes,14-01-2022
+ITM-0028,Vegetable Biryani,Mains,76,24.5,14,Yes,941,Yes,14-10-2021
+ITM-0029,Vegetable Biryani Special,Mains,128,40.57,16,Yes,803,Yes,22-07-2022
+ITM-0030,Vegetable Biryani Large,Mains,106,35.45,13,Yes,1064,Yes,31-03-2022
+ITM-0031,Mixed Grill,Grills,158,55.64,25,No,346,Yes,19-03-2023
+ITM-0032,Mixed Grill Special,Grills,153,60.25,24,No,925,Yes,17-03-2020
+ITM-0033,Mixed Grill Large,Grills,183,72.85,14,No,742,Yes,09-08-2021
+ITM-0034,Shish Tawook,Grills,125,46.72,21,No,308,Yes,09-07-2021
+ITM-0035,Shish Tawook Special,Grills,202,77.07,20,No,108,Yes,12-02-2021
+ITM-0036,Shish Tawook Large,Grills,74,30.67,28,No,533,Yes,20-09-2020
+ITM-0037,Lamb Chops,Grills,72,29.4,26,No,278,Yes,23-07-2020
+ITM-0038,Lamb Chops Special,Grills,99,39.34,17,No,1132,Yes,01-02-2023
+ITM-0039,Lamb Chops Large,Grills,155,54.73,17,No,346,No,04-05-2023
+ITM-0040,Beef Ribeye,Grills,114,44.99,14,No,160,Yes,25-09-2022
+ITM-0041,Beef Ribeye Special,Grills,167,63.57,20,No,594,Yes,22-05-2021
+ITM-0042,Beef Ribeye Large,Grills,157,61.17,22,No,433,No,14-11-2021
+ITM-0043,Grilled Hammour,Grills,83,32.7,14,No,193,Yes,25-11-2020
+ITM-0044,Grilled Hammour Special,Grills,195,75.58,18,No,414,Yes,02-11-2023
+ITM-0045,Grilled Hammour Large,Grills,162,65.46,24,No,362,Yes,04-08-2022
+ITM-0046,Kofta Skewers,Grills,173,65.03,20,No,828,Yes,10-05-2022
+ITM-0047,Kofta Skewers Special,Grills,187,75.38,15,No,711,Yes,15-07-2021
+ITM-0048,Kofta Skewers Large,Grills,183,73.69,16,No,457,Yes,19-03-2023
+ITM-0049,Chicken Shawarma,Sandwiches,60,17.54,5,No,769,Yes,11-08-2023
+ITM-0050,Chicken Shawarma Special,Sandwiches,39,11.1,6,No,261,No,05-01-2022
+ITM-0051,Beef Burger,Sandwiches,24,7.24,6,No,680,Yes,26-09-2022
+ITM-0052,Beef Burger Special,Sandwiches,57,15.96,12,No,123,Yes,07-10-2020
+ITM-0053,Club Sandwich,Sandwiches,29,9.83,5,No,472,Yes,08-01-2020
+ITM-0054,Club Sandwich Special,Sandwiches,28,8.88,6,No,268,Yes,21-10-2022
+ITM-0055,Falafel Wrap,Sandwiches,43,13.03,12,Yes,839,Yes,23-04-2023
+ITM-0056,Falafel Wrap Special,Sandwiches,33,10.28,9,Yes,624,Yes,08-01-2022
+ITM-0057,Halloumi Panini,Sandwiches,32,9.12,8,Yes,1150,Yes,11-10-2021
+ITM-0058,Halloumi Panini Special,Sandwiches,53,15.99,12,Yes,345,Yes,03-12-2023
+ITM-0059,French Fries,Sides,13,3.58,7,Yes,974,Yes,04-06-2021
+ITM-0060,French Fries Special,Sides,13,3.14,7,Yes,1019,Yes,11-09-2021
+ITM-0061,Garlic Bread,Sides,18,4.8,4,Yes,249,Yes,14-11-2023
+ITM-0062,Garlic Bread Special,Sides,28,7.59,4,Yes,689,No,05-03-2020
+ITM-0063,Rice Pilaf,Sides,25,6.84,7,Yes,571,Yes,23-01-2023
+ITM-0064,Rice Pilaf Special,Sides,10,2.39,8,Yes,469,Yes,28-08-2020
+ITM-0065,Garden Salad,Sides,19,4.95,7,Yes,841,Yes,11-07-2021
+ITM-0066,Garden Salad Special,Sides,24,6.08,5,Yes,760,Yes,17-07-2020
+ITM-0067,Grilled Vegetables,Sides,13,3.27,6,Yes,747,No,04-09-2022
+ITM-0068,Grilled Vegetables Special,Sides,10,2.45,3,Yes,375,Yes,05-07-2020
+ITM-0069,Umm Ali,Desserts,20,5.21,3,No,543,No,12-04-2023
+ITM-0070,Umm Ali Special,Desserts,29,6.42,5,No,134,Yes,07-08-2022
+ITM-0071,Cheesecake,Desserts,30,6.76,8,No,139,Yes,22-11-2022
+ITM-0072,Cheesecake Special,Desserts,43,9.89,3,No,425,Yes,27-12-2022
+ITM-0073,Kunafa,Desserts,43,9.88,5,No,434,Yes,04-08-2020
+ITM-0074,Kunafa Special,Desserts,23,5.19,8,No,684,No,14-11-2022
+ITM-0075,Chocolate Fondant,Desserts,35,8.68,3,No,96,Yes,28-04-2023
+ITM-0076,Chocolate Fondant Special,Desserts,22,5.24,9,No,382,No,01-07-2021
+ITM-0077,Fruit Platter,Desserts,27,6.01,4,Yes,257,Yes,28-03-2021
+ITM-0078,Fruit Platter Special,Desserts,48,10.9,9,Yes,158,Yes,17-05-2022
+ITM-0079,Arabic Coffee,Hot Drinks,23,3.95,4,Yes,649,Yes,20-07-2020
+ITM-0080,Arabic Coffee Special,Hot Drinks,14,2.28,5,Yes,762,Yes,12-04-2020
+ITM-0081,Cappuccino,Hot Drinks,12,1.81,5,No,330,Yes,03-09-2020
+ITM-0082,Cappuccino Special,Hot Drinks,16,2.43,4,No,886,Yes,11-10-2020
+ITM-0083,Karak Tea,Hot Drinks,13,2.17,3,Yes,281,Yes,20-06-2023
+ITM-0084,Karak Tea Special,Hot Drinks,28,4.55,5,Yes,345,Yes,12-06-2022
+ITM-0085,Espresso,Hot Drinks,19,3.17,2,No,605,Yes,29-07-2022
+ITM-0086,Espresso Special,Hot Drinks,18,2.72,5,No,1007,No,10-04-2023
+ITM-0087,Green Tea,Hot Drinks,26,4,5,Yes,1018,Yes,30-09-2023
+ITM-0088,Green Tea Special,Hot Drinks,13,2.11,3,Yes,289,Yes,11-05-2021
+ITM-0089,Fresh Orange,Cold Drinks,20,3.78,1,Yes,583,Yes,03-05-2021
+ITM-0090,Fresh Orange Special,Cold Drinks,30,5.76,3,Yes,688,Yes,25-02-2022
+ITM-0091,Mint Lemonade,Cold Drinks,23,4.71,2,Yes,1073,Yes,14-03-2023
+ITM-0092,Mint Lemonade Special,Cold Drinks,34,6.34,3,Yes,941,Yes,09-01-2021
+ITM-0093,Iced Latte,Cold Drinks,39,7.31,1,Yes,231,Yes,10-04-2022
+ITM-0094,Iced Latte Special,Cold Drinks,27,4.8,4,Yes,789,Yes,04-07-2020
+ITM-0095,Mineral Water,Cold Drinks,23,3.98,3,Yes,323,Yes,09-07-2020
+ITM-0096,Mineral Water Special,Cold Drinks,26,4.96,2,Yes,444,Yes,14-11-2022
+ITM-0097,Soft Drink,Cold Drinks,31,6.27,1,Yes,1066,Yes,07-06-2022
+ITM-0098,Soft Drink Special,Cold Drinks,12,2.38,4,Yes,147,Yes,25-09-2023
