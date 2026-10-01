@@ -56,7 +56,7 @@ The key business questions include:
 
 ## 📊 Dataset
 
-The project uses five main datasets:
+The project uses five main datasets.
 
 ### 1. BRANCHES
 
@@ -158,152 +158,190 @@ Interactive Dashboards
 Streamlit Portfolio Application
         ↓
 GitHub
-text```
+```
 
-📈 Power BI Dashboards
+---
+
+# 📈 Power BI Dashboards
 
 The Power BI reporting layer consists of three interactive dashboards designed to provide management with a clear view of sales, operations, profitability, and channel performance.
 
-1. Executive Overview
+## 1. Executive Overview
 
 Provides a high-level view of overall restaurant business performance.
 
-Key KPIs
-Total Revenue
-Total Orders
-Average Order Value
-Gross Margin %
-Prime Cost %
-Net Profit
-Visualizations
-Monthly Revenue Trend
-Monthly Orders Trend
-Revenue by Branch
-Revenue by Order Channel
-Revenue by Restaurant Concept
-2. Branch & Operations
+### Key KPIs
+
+- Total Revenue
+- Total Orders
+- Average Order Value
+- Gross Margin %
+- Prime Cost %
+- Net Profit
+
+### Visualizations
+
+- Monthly Revenue Trend
+- Monthly Orders Trend
+- Revenue by Branch
+- Revenue by Order Channel
+- Revenue by Restaurant Concept
+
+---
+
+## 2. Branch & Operations
 
 Focuses on branch-level performance and operational efficiency.
 
-Key KPIs
-Revenue
-Orders
-Average Order Value
-Food Cost %
-Prime Cost %
-Analysis
-Revenue by Branch
-Orders by Branch
-AOV by Branch
-Food Cost % by Branch
-Prime Cost % by Branch
-Labour Cost by Branch
-Weekend vs Weekday Revenue
-Revenue by Emirate
-3. Sales & Channel Insights
+### Key KPIs
+
+- Revenue
+- Orders
+- Average Order Value
+- Food Cost %
+- Prime Cost %
+
+### Analysis
+
+- Revenue by Branch
+- Orders by Branch
+- AOV by Branch
+- Food Cost % by Branch
+- Prime Cost % by Branch
+- Labour Cost by Branch
+- Weekend vs Weekday Revenue
+- Revenue by Emirate
+
+---
+
+## 3. Sales & Channel Insights
 
 Focuses on sales-channel performance, discounts, and aggregator commissions.
 
-Key KPIs
-Net Revenue
-Total Orders
-Average Order Value
-Discount Rate
-Commission Rate
-Analysis
-Monthly Net Revenue Trend
-Revenue by Order Channel
-Orders by Order Channel
-Discount Amount by Channel
-Aggregator Commission by Channel
-Discount Rate by Channel
-Gross Sales vs Net Revenue by Channel
-🤖 Predictive Analysis
+### Key KPIs
 
-A Linear Regression model was developed using Python and Scikit-learn to analyze the relationship between restaurant business features and revenue.
+- Net Revenue
+- Total Orders
+- Average Order Value
+- Discount Rate
+- Commission Rate
 
-Model Performance
-Metric	Result
-R²	0.9768
-MAE	AED 2,756.69
-RMSE	AED 3,976.36
+### Analysis
+
+- Monthly Net Revenue Trend
+- Revenue by Order Channel
+- Orders by Order Channel
+- Discount Amount by Channel
+- Aggregator Commission by Channel
+- Discount Rate by Channel
+- Gross Sales vs Net Revenue by Channel
+
+---
+
+# 🤖 Predictive Analysis
+
+A **Linear Regression** model was developed using Python and Scikit-learn to analyze the relationship between restaurant business features and revenue.
+
+## Model Performance
+
+| Metric | Result |
+|---|---:|
+| R² | 0.9768 |
+| MAE | AED 2,756.69 |
+| RMSE | AED 3,976.36 |
 
 The model was evaluated using a train-test split.
 
-Note: This is a feature-based revenue prediction model using same-period aggregated business features. It should not be interpreted as a true future time-series forecast.
+> **Note:** This is a feature-based revenue prediction model using same-period aggregated business features. It should not be interpreted as a true future time-series forecast.
 
-📊 Python Exploratory Data Analysis
+---
+
+# 📊 Python Exploratory Data Analysis
 
 Python was used for:
 
-Data cleaning
-Data type validation
-Missing-value analysis
-Duplicate checks
-Descriptive statistics
-Feature engineering
-Exploratory data analysis
-Revenue analysis
-Branch analysis
-Channel analysis
-Menu analysis
-Cost analysis
-Predictive modeling
-Key Visualizations
-Monthly Revenue Trend
-Monthly Orders Trend
-Revenue by Branch
-Revenue by Channel
-Revenue by Menu Category
-Net Revenue vs Food Cost
-Weekend vs Weekday Performance
-Prime Cost % by Branch
-💡 Key Business Insights
+- Data cleaning
+- Data type validation
+- Missing-value analysis
+- Duplicate checks
+- Descriptive statistics
+- Feature engineering
+- Exploratory data analysis
+- Revenue analysis
+- Branch analysis
+- Channel analysis
+- Menu analysis
+- Cost analysis
+- Predictive modeling
+
+## Key Visualizations
+
+- Monthly Revenue Trend
+- Monthly Orders Trend
+- Revenue by Branch
+- Revenue by Channel
+- Revenue by Menu Category
+- Net Revenue vs Food Cost
+- Weekend vs Weekday Performance
+- Prime Cost % by Branch
+
+---
+
+# 💡 Key Business Insights
 
 The analysis provides visibility into:
 
-Revenue trends across the business
-Differences in branch performance
-Sales contribution across channels
-Food and labour cost behavior
-Prime cost and profitability drivers
-Menu category performance
-High-performing menu items
-Weekend versus weekday performance
-Operational efficiency
-Revenue drivers identified through predictive modeling
-🚀 Business Recommendations
+- Revenue trends across the business
+- Differences in branch performance
+- Sales contribution across channels
+- Food and labour cost behavior
+- Prime cost and profitability drivers
+- Menu category performance
+- High-performing menu items
+- Weekend versus weekday performance
+- Operational efficiency
+- Revenue drivers identified through predictive modeling
+
+---
+
+# 🚀 Business Recommendations
 
 Based on the analysis, management can:
 
-Monitor branch-level performance regularly
-Optimize underperforming sales channels
-Track food and labour costs closely
-Reduce unnecessary waste
-Monitor aggregator commissions and discounts
-Focus on high-performing menu categories and items
-Review operational efficiency across branches
-Use revenue-driver analysis to support business planning
-🌐 Streamlit Application
+- Monitor branch-level performance regularly
+- Optimize underperforming sales channels
+- Track food and labour costs closely
+- Reduce unnecessary waste
+- Monitor aggregator commissions and discounts
+- Focus on high-performing menu categories and items
+- Review operational efficiency across branches
+- Use revenue-driver analysis to support business planning
 
-The project includes an interactive Streamlit portfolio application with three pages.
+---
 
-Page 1 — Executive Overview
+# 🌐 Streamlit Application
+
+The project includes an interactive **Streamlit portfolio application** with three pages.
+
+## Page 1 — Executive Overview
 
 Provides an overall view of restaurant performance through KPIs, revenue trends, branch performance, channel performance, and restaurant concepts.
 
-Page 2 — Branch & Operations
+## Page 2 — Branch & Operations
 
 Provides branch-level operational analysis including revenue, orders, AOV, food cost, prime cost, labour cost, weekend/weekday performance, and emirate analysis.
 
-Page 3 — Sales & Channel Insights
+## Page 3 — Sales & Channel Insights
 
 Provides sales-channel analysis including revenue, orders, discounts, commissions, AOV, and channel-level performance.
 
 The application includes interactive filters and business-focused visualizations for exploring restaurant performance.
 
-📂 Project Structure
+---
 
+# 📂 Project Structure
+
+```text
 UAE-Restaurant-Chain-Analytics/
 │
 ├── app.py
@@ -320,81 +358,140 @@ UAE-Restaurant-Chain-Analytics/
 │   └── 3_Sales_Channel_Insights.py
 │
 └── README.md
+```
 
-▶️ Run the Streamlit Application
-Step 1 — Install Required Libraries
+---
+
+# ▶️ Run the Streamlit Application
+
+## Step 1 — Install Required Libraries
+
+```bash
 pip install streamlit pandas numpy matplotlib
+```
 
-Step 2 — Run the Application
+## Step 2 — Run the Application
+
+```bash
 python -m streamlit run app.py
+```
+
 The Streamlit application will open in your web browser.
 
-🔍 Analytical Approach
-Descriptive Analysis
+---
+
+# 🔍 Analytical Approach
+
+## Descriptive Analysis
 
 Used to understand:
 
-Revenue
-Orders
-AOV
-Branch performance
-Channel performance
-Menu performance
-Cost structure
-Diagnostic Analysis
+- Revenue
+- Orders
+- AOV
+- Branch performance
+- Channel performance
+- Menu performance
+- Cost structure
+
+## Diagnostic Analysis
 
 Used to investigate:
 
-Revenue differences between branches
-Food and labour cost behavior
-Prime cost variation
-Channel performance
-Discount and commission impact
-Weekend vs weekday performance
-Predictive Analysis
+- Revenue differences between branches
+- Food and labour cost behavior
+- Prime cost variation
+- Channel performance
+- Discount and commission impact
+- Weekend vs weekday performance
 
-Used Linear Regression to analyze revenue relationships with business and operational features.
+## Predictive Analysis
 
-📌 Key Business Metrics
-Average Order Value
+Used **Linear Regression** to analyze revenue relationships with business and operational features.
+
+---
+
+# 📌 Key Business Metrics
+
+## Average Order Value
+
+```text
 AOV = Total Revenue / Total Orders
+```
 
-Gross Margin
+## Gross Margin
+
+```text
+Gross Margin = Net Revenue - Food Cost
+```
+
+## Prime Cost
+
+```text
 Prime Cost = Food Cost + Labour Cost
+```
 
-Prime Cost %
+## Prime Cost %
+
+```text
 Prime Cost % = Prime Cost / Net Revenue × 100
+```
 
-Food Cost %
+## Food Cost %
+
+```text
 Food Cost % = Food Cost / Net Revenue × 100
+```
 
-Discount Rate
+## Discount Rate
+
+```text
 Discount Rate = Discounts / Gross Sales × 100
+```
 
-Aggregator Commission Rate
+## Aggregator Commission Rate
+
+```text
 Commission Rate = Aggregator Commission / Gross Sales × 100
+```
 
-⭐ Project Highlights
-End-to-end data analytics project
-Cloud-based data analysis using Snowflake
-SQL-based data transformation
-Python-based EDA and predictive modeling
-Databricks notebook workflow
-Interactive Power BI dashboards
-Streamlit portfolio application
-Business-focused KPI analysis
-Revenue prediction model
-GitHub project documentation
+---
 
-👩‍💻 Author
-Ekta Grewal
+# ⭐ Project Highlights
 
-Data Analyst | SQL | Python | Power BI | Snowflake | Databricks
+- End-to-end data analytics project
+- Cloud-based data analysis using Snowflake
+- SQL-based data transformation
+- Python-based EDA and predictive modeling
+- Databricks notebook workflow
+- Interactive Power BI dashboards
+- Streamlit portfolio application
+- Business-focused KPI analysis
+- Revenue prediction model
+- GitHub project documentation
+
+---
+
+# 👩‍💻 Author
+
+## Ekta Grewal
+
+**Data Analyst | SQL | Python | Power BI | Snowflake | Databricks**
 
 📍 Gurgaon, Haryana, India
 
-📫 Contact
+---
 
-Email: grewalektaig98@gmail.com
+# 📫 Contact
 
-LinkedIn: Ekta Grewal
+**Email:** grewalektaig98@gmail.com
+
+**LinkedIn:** [Ekta Grewal](https://www.linkedin.com/in/ekta-grewal-121500224/)
+
+---
+
+# ⭐ Thank You
+
+Thank you for visiting this project.
+
+This project demonstrates an end-to-end approach to transforming restaurant data into meaningful business insights using modern data analytics and business intelligence tools.
